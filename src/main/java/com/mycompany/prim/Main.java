@@ -21,6 +21,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         System.out.println(n);
+        //vg
         //calculate
         if(n < 2) count--;        //2 is removed
         for(int i= 3; i < n; i=i+2){
